@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #000000;
+    font-family: 'Roboto Mono', sans-serif;
+  }
+  
+  /* FONTS */
+  h1, h2, h3 .preço {
+    font-family: 'Raleway';
+    text-transform: uppercase;
+  }
+  
+  ul { 
+    list-style: none;
+  }
+  
+  p#aberto {
+    color: white;
+  }
+  
+  header {
+    padding: 32px 0;
+    text-align: center;
+    color: rgb(221, 133, 0);
+  }
+  
+  header,
+  section {
+    max-width: 300px; 
+    margin: 0 auto;
+  }
+  
+  section h2 {
+    background-color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+  
+  h3 {
+    color: rgb(221, 133, 0);
+  }
+  
+  ul li {
+    margin-bottom: 24px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+  }
+  
+  li .descrição {
+    margin-bottom: 8px;
+  }
+  
+  li .detalhes {
+    max-width: 240px;
+  }
+  
+  
